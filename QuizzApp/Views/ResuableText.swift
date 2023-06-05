@@ -16,7 +16,6 @@ struct ResuableText: ViewModifier {
     }
     
 }
-
 extension View {
     func textStyle(size: CGFloat) -> some View {
         self.modifier(ResuableText(size: size))

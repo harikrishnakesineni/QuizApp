@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AF373C2A2E706C00998158 /* Question1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37372A2E706B00998158 /* Question1.png */; };
+		47AF373D2A2E706C00998158 /* Question1Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37382A2E706B00998158 /* Question1Wrong.png */; };
+		47AF373E2A2E706C00998158 /* Question1Correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37392A2E706B00998158 /* Question1Correct.png */; };
+		47AF373F2A2E706C00998158 /* Question2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF373A2A2E706B00998158 /* Question2.png */; };
+		47AF37402A2E706C00998158 /* Question2Correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF373B2A2E706C00998158 /* Question2Correct.png */; };
+		47AF37422A2E713300998158 /* Question2Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF37412A2E713300998158 /* Question2Wrong.png */; };
 		47D19DB829F4DEB7008023CD /* QuizzAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D19DB729F4DEB7008023CD /* QuizzAppApp.swift */; };
 		47D19DBA29F4DEB7008023CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D19DB929F4DEB7008023CD /* ContentView.swift */; };
 		47D19DBC29F4DEB9008023CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D19DBB29F4DEB9008023CD /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF37372A2E706B00998158 /* Question1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question1.png; sourceTree = "<group>"; };
+		47AF37382A2E706B00998158 /* Question1Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question1Wrong.png; sourceTree = "<group>"; };
+		47AF37392A2E706B00998158 /* Question1Correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question1Correct.png; sourceTree = "<group>"; };
+		47AF373A2A2E706B00998158 /* Question2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question2.png; sourceTree = "<group>"; };
+		47AF373B2A2E706C00998158 /* Question2Correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question2Correct.png; sourceTree = "<group>"; };
+		47AF37412A2E713300998158 /* Question2Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question2Wrong.png; sourceTree = "<group>"; };
 		47D19DB429F4DEB7008023CD /* QuizzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D19DB729F4DEB7008023CD /* QuizzAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzAppApp.swift; sourceTree = "<group>"; };
 		47D19DB929F4DEB7008023CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AF37362A2E705200998158 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				47AF37372A2E706B00998158 /* Question1.png */,
+				47AF37392A2E706B00998158 /* Question1Correct.png */,
+				47AF37412A2E713300998158 /* Question2Wrong.png */,
+				47AF373A2A2E706B00998158 /* Question2.png */,
+				47AF373B2A2E706C00998158 /* Question2Correct.png */,
+				47AF37382A2E706B00998158 /* Question1Wrong.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		47D19DAB29F4DEB7008023CD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +88,7 @@
 		47D19DB629F4DEB7008023CD /* QuizzApp */ = {
 			isa = PBXGroup;
 			children = (
+				47AF37362A2E705200998158 /* Screenshots */,
 				47D19DC829F629EB008023CD /* ViewModel */,
 				47D19DC529F4E989008023CD /* Models */,
 				47D19DCB29F62A27008023CD /* Views */,
@@ -167,8 +193,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AF373E2A2E706C00998158 /* Question1Correct.png in Resources */,
 				47D19DBF29F4DEB9008023CD /* Preview Assets.xcassets in Resources */,
+				47AF373D2A2E706C00998158 /* Question1Wrong.png in Resources */,
 				47D19DBC29F4DEB9008023CD /* Assets.xcassets in Resources */,
+				47AF373C2A2E706C00998158 /* Question1.png in Resources */,
+				47AF37402A2E706C00998158 /* Question2Correct.png in Resources */,
+				47AF373F2A2E706C00998158 /* Question2.png in Resources */,
+				47AF37422A2E713300998158 /* Question2Wrong.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
